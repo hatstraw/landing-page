@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    background: #eee;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+}
+
+.top,
+.footer {
+    background: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.topnav h2 {
+    /* Header logo text */
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.topnav h2:hover {
+    color: rgb(252, 208, 142);
+}
+
+
+.topnav .links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.topnav .links a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.topnav .links a:hover {
+    color: lightcoral;
+}
+
+.hero { 
+    /* margin: 10px 10px; */
+    padding: 50px 0px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.header {
+    flex: 1 1 auto;
+    width: 400px;
+}
+
+.img-box{
+    flex: 2 0 auto;
+    width: 500px;
+}
+
+img {
+    border-radius: 16px;
+    width: 100%;
+}
+
+.hero .header h4 {
+    margin: 0;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;    
+}
+
+
+button {
+    border: none;
+    border-radius: 8px;
+    background: rebeccapurple;
+    color: white;
+    padding: 8px 24px;
+    cursor: pointer;
+}
